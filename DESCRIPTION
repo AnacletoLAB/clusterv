@@ -1,0 +1,13 @@
+Package: clusterv
+Version: 1.1
+Date: 2006-08-16
+Title: Assessment of cluster stability by randomized maps
+Author: Giorgio Valentini <valenti@dsi.unimi.it>
+Maintainer: Giorgio Valentini <valenti@dsi.unimi.it>
+Depends: stats, MASS
+Description: The reliability of clusters is estimated using random projections. A set of stability measures is provided
+	to assess the reliability of the clusters discovered by a generic clustering algorithm. 
+	The stability measures are taylored to high dimensional data (e.g. DNA microarray data).
+License: GPL
+URL: http://homes.dsi.unimi.it/~valenti
+Packaged: Thu Aug 24 12:00:21 2006; valenti
