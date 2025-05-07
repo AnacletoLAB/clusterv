@@ -7,7 +7,6 @@ Authors@R: c(
     person("Giorgio", "Valentini", email = "valentini@di.unimi.it", role = "aut"),
     person("Jessica", "Gliozzo", email = "jessica.gliozzo@unimi.it", role = "cre"))
 Maintainer: Jessica Gliozzo <jessica.gliozzo@unimi.it>
-Depends: stats, MASS
 Description: The reliability of clusters is estimated using random projections. 
     A set of stability measures is provided to assess the reliability of the clusters 
     discovered by a generic clustering algorithm. 
@@ -16,3 +15,9 @@ License: GPL (>= 2)
 URL: https://valentini.di.unimi.it/SW/clusterv/
 Encoding: UTF-8
 RoxygenNote: 7.3.2
+Imports: stats, MASS, cluster
+Suggests:
+    BiocStyle,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
