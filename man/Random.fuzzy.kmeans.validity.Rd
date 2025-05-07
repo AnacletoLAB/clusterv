@@ -51,7 +51,7 @@ Random.fuzzy.kmeans.validity(M, dim, pmethod = "PMO", c = 3, n = 50, scale = TRU
 
              \code{\link{norm.random.projection}},\code{\link{random.subspace}},
 						 
-						 \code{\link{Cluster.validity}}, \code{\link{Compute.validity.indices}}, \code{\link{AC.index}}}
+						 \code{\link{Cluster.validity}}, \code{\link{Validity.indices}}, \code{\link{AC.index}}}
 \examples{
 # Assessment of the reliability of clusters discovered 
 # by fuzzy k-means using RS projections. 

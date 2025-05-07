@@ -52,7 +52,7 @@ Random.kmeans.validity(M, dim, pmethod = "PMO", c = 3, it.max = 1000,
 
              \code{\link{norm.random.projection}},\code{\link{random.subspace}},
 						 
-						 \code{\link{Cluster.validity}}, \code{\link{Compute.validity.indices}}, \code{\link{AC.index}}}
+						 \code{\link{Cluster.validity}}, \code{\link{Validity.indices}}, \code{\link{AC.index}}}
 \examples{
 # Assessment of the reliability of clusters discovered 
 # by k-means using RS projections. 
