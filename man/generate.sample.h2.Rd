@@ -9,7 +9,8 @@
 	At a third level two other clusters above and below the secondaty clusters are generated (12 clusters)
 }
 \usage{
-generate.sample.h2(n = 20, l = 8, Delta.h = 2, Delta.v = 1, sd = 0.1, with.I.II.level.examples = FALSE)
+generate.sample.h2(n = 20, l = 8, Delta.h = 2, Delta.v = 1, sd = 0.1, 
+with.I.II.level.examples = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

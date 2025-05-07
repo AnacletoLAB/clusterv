@@ -15,7 +15,8 @@ It assumes that the label of the examples are integer starting from 1 to ncol(M)
 }
 \usage{
 Random.hclustering.validity(M, dim, pmethod = "RS", c = 3, hmethod = "average", 
-                            n = 50, scale = TRUE, seed = 100, AC=TRUE, distance="euclidean")
+                            n = 50, scale = TRUE, seed = 100, AC=TRUE, 
+                            distance="euclidean")
 }
 
 \arguments{
@@ -59,7 +60,7 @@ Random.hclustering.validity(M, dim, pmethod = "RS", c = 3, hmethod = "average",
 
              \code{\link{norm.random.projection}},\code{\link{random.subspace}},
 						 
-						 \code{\link{Cluster.validity}}, \code{\link{Compute.validity.indices}}, \code{\link{AC.index}}}
+						 \code{\link{Cluster.validity}}, \code{\link{Validity.indices}}, \code{\link{AC.index}}}
 \examples{
 # Assessment of the reliability of clusters discovered 
 # by hierarchical clustering using RS projections. 
