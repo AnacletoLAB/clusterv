@@ -30,6 +30,6 @@ with.I.II.level.examples = FALSE)
 generate.sample.h2()
 # Generation of a data set with 240 2-dimensional examples
 # data have a three-level hierarchical structure with respectively 3 and 6 and 12 clusters. 
-generate.sample.h2(n = 20, l = 10, Delta.h = 2, Delta.h = 1, sd = 0.05)
+generate.sample.h2(n = 20, l = 10, Delta.h = 2, Delta.v = 1, sd = 0.05)
 }
 \keyword{datagen}
