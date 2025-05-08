@@ -53,6 +53,7 @@ Random.fuzzy.kmeans.validity(M, dim, pmethod = "PMO", c = 3, n = 50, scale = TRU
 						 
 						 \code{\link{Cluster.validity}}, \code{\link{Validity.indices}}, \code{\link{AC.index}}}
 \examples{
+\dontrun{
 # Assessment of the reliability of clusters discovered 
 # by fuzzy k-means using RS projections. 
 M <- generate.sample0(n=10, m=2, sigma=1, dim=800)
@@ -68,6 +69,6 @@ l<-Random.fuzzy.kmeans.validity(M, dim=30, pmethod = "PMO", c = 10, n = 20)
 # expansion lower than 1.3 according to the Johnson Lindenstrauss lemma)
 d <- JL.predict.dim(n=30, epsilon=0.3)
 l<-Random.fuzzy.kmeans.validity(M, dim=d, pmethod = "PMO", c = 3, n = 20)
-
+}
 }
 \keyword{ cluster }

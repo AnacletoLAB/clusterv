@@ -29,7 +29,6 @@ generate.sample0(n = 5, m = 10, sigma = 1, dim = 2)
 }
 
 \author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
-\note{ ~~further notes~~ }
 
  
 \examples{

@@ -44,6 +44,7 @@ Norm.hclustering.tree(M, dim, hmethod = "average", n = 50, scale = TRUE,
 
 \seealso{ \code{\link{norm.random.projection}}}
 \examples{
+\dontrun{
 # 20 hierarchical clusterings on multiple Normal projected data 
 # with subspace dimension equal to 100
 M <- generate.sample0(n=10, m=2, sigma=1, dim=800)
@@ -54,5 +55,6 @@ l <- Norm.hclustering.tree(M, dim=100, hmethod = "average", n = 20, scale = TRUE
 # with subspace dimension equal to 200
 M <- generate.sample0(n=8, m=1, sigma=2, dim=1000)
 l <- Norm.hclustering(M, dim=200, hmethod = "average", n = 10, scale = TRUE)
+}
 }
 \keyword{ cluster }

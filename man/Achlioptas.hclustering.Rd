@@ -51,6 +51,7 @@ seed = 100, distance = "euclidean")
           \code{\link{norm.random.projection}},\code{\link{random.subspace}}}
 
 \examples{
+\dontrun{
 # 20 hierarchical clusterings on multiple Achlioptas projected data with 
 # subspace dimension equal to 100
 M <- generate.sample0(n=10, m=2, sigma=1, dim=800)
@@ -61,5 +62,6 @@ l <- Achlioptas.hclustering.tree(M, dim=100, hmethod = "average", n = 20, scale 
 # subspace dimension equal to 200
 M <- generate.sample0(n=8, m=1, sigma=2, dim=1000)
 l <- Achlioptas.hclustering(M, dim=200, hmethod = "average", n = 10, scale = TRUE)
+}
 }
 \keyword{ cluster }

@@ -31,11 +31,13 @@ generate.sample3(n = 2, m = 2)
 \author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
 
 \examples{
+\dontrun{
 generate.sample3()
 # Generation of a data set with 60 1000-dimensional examples, 
 # with the examples of the first class  centered in the 1000-dimensional 
 # 0 vector, the second class is centered in the 1 vector, the third in -1. 
 generate.sample3(n = 20, m = 1)
+}
 }
 
 \keyword{datagen}

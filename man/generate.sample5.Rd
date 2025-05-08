@@ -40,6 +40,7 @@ generate.sample5(n = 10, dim = 10, ratio.noisy = 0.8, m = 2)
 \author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
 
 \examples{
+\dontrun{
 generate.sample5()
 # Generation of a data set with 80 1000-dimensional examples, with the 200 no-noisy 
 # features of the examples of the first class  centered in 0, the 200 no-noisy features 
@@ -47,6 +48,7 @@ generate.sample5()
 # the examples of the third class  centered in -2, and the 200 no-noisy features of the 
 # examples of the fourth class  centered in alternatively in (2,-2).
 generate.sample5(n = 20, m = 2, ratio.noisy = 0.8, dim = 1000)
+}
 }
 \keyword{datagen}
 

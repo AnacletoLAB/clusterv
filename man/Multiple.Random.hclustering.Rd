@@ -44,6 +44,7 @@ Multiple.Random.hclustering(M, dim, pmethod = "RS", c = 3, hmethod = "average",
  
           \code{\link{norm.random.projection}},\code{\link{random.subspace}}}
 \examples{
+\dontrun{
 # Multiple (20) hierarchical clusterings using Normal projections. 
 M <- generate.sample0(n=10, m=2, sigma=2, dim=800)
 l.norm <- Multiple.Random.hclustering (M, dim=100, pmethod="Norm", 
@@ -57,5 +58,6 @@ l.RS <-  Multiple.Random.hclustering (M, dim=100, pmethod="PMO", c=5,
 # The same as above, using the single linkage method
 l.RS.single <-  Multiple.Random.hclustering (M, dim=100, pmethod="PMO", 
                                              c=5, hmethod="single", n=20)
+}
 }
 \keyword{ cluster }
