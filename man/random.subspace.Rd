@@ -6,7 +6,7 @@
   Random projections to a lower dimension subspace (random subspace method)
 The projection is performed randomly selecting a subset of variables (components) and then projecting 
 the data onto the selected components.
-It is the projection used by Ho for its Random subspace ensemble algorithm. 
+It is the projection used by Ho for her Random subspace ensemble algorithm. 
 }
 \usage{
 random.subspace(d = 2, m, scaling = TRUE)
