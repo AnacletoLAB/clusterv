@@ -2,9 +2,9 @@
 function(M, dim, pmethod="PMO", c=3, it.max=1000, n=50, scale=TRUE, seed=-1, AC=TRUE) {
   dim.Sim.M <- ncol(M);
 	if (seed == -1)
-	   seed <- round(runif(1,1,10000));
+	   seed <- round(stats::runif(1,1,10000));
 	# Computing the clusters in the original space	
-	r<-kmeans(t(M), c, iter.max = it.max);
+	r <- stats::kmeans(t(M), c, iter.max = it.max);
 	cl.orig <- Transform.vector.to.list(r$cluster);
 	
 	# Perform multiple clusterings using randomized embeddings

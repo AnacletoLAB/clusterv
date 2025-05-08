@@ -10,7 +10,7 @@ function(M, dim, pmethod="PMO", c=3,  n=50, it.max=1000, scale=TRUE, seed=100) {
 	                Norm = norm.random.projection(d=dim, M, scaling=scale),
 	                Achlioptas = Achlioptas.random.projection(d=dim, M, scaling=scale),
 									stop("Multiple.Random.kmeans: not supported random projection.", call.=FALSE));
-		r<-kmeans(t(P.M), c, iter.max = it.max);
+		r <- stats::kmeans(t(P.M), c, iter.max = it.max);
 		cl[[i]] <- Transform.vector.to.list(r$cluster);
 	}
 	return(cl);								 

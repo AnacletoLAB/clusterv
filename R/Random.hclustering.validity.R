@@ -13,14 +13,14 @@ function(M, dim, pmethod="RS", c=3, hmethod="average", n=50, scale=TRUE, seed=10
 	# computing the list of validity measures
 	# C. computing the clusters in the original space
 	if (distance == "euclidean")
-		  d <- dist (t(M))
+		  d <- stats::dist (t(M))
 	else if (distance == "pearson")
-			d <- as.dist(1 - cor(M))
+			d <- stats::as.dist(1 - stats::cor(M))
 	else
 	    stop("Random.hclustering.validity: distance measure not implemented");
-	tree <- hclust(d, method = hmethod);
+	tree <- stats::hclust(d, method = hmethod);
   plot(tree, main="");
-	cl.orig <- rect.hclust(tree, k = c);
+	cl.orig <- stats::rect.hclust(tree, k = c);
 	# D. computing the validity indices vi
 	vi <- Validity.indices(cl.orig, c, Sim.M);
 	

@@ -2,7 +2,7 @@
 function(M, dim, pmethod="PMO", c=3,  n=50, 
                                         scale=TRUE, seed=-1, distance="euclidean") {
   if (seed == -1)
-	   seed <- round(runif(1,1,10000));
+	   seed <- round(stats::runif(1,1,10000));
 	set.seed(seed);
 	cl <- list();
 	for (i in 1:n) {
@@ -14,10 +14,10 @@ function(M, dim, pmethod="PMO", c=3,  n=50,
 	                Achlioptas = Achlioptas.random.projection(d=dim, M, scaling=scale),
 									stop("Multiple.Random.kmeans: not supported random projection.", call.=FALSE));
 	  if (distance == "euclidean")
-		  d <- dist (t(P.M))
+		  d <- stats::dist (t(P.M))
 		else 
-			d <- as.dist(1 - cor(P.M));
-		cl.v <- pam (d,c,cluster.only=TRUE);	
+			d <- stats::as.dist(1 - stats::cor(P.M));
+		cl.v <- cluster::pam (d,c,cluster.only=TRUE);	
 		cl[[i]] <- Transform.vector.to.list(cl.v);
 	}
 	return(cl);								 

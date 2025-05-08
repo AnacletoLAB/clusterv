@@ -4,7 +4,7 @@ function(d=2, m, scaling=TRUE){
   if (d >= d.original)
     stop("norm.random.projection: subspace dimension must be lower than space dimension", call.=FALSE);
   # Projection matrix
-  P <- rnorm(d*d.original);
+  P <- stats::rnorm(d*d.original);
   P <- matrix(P, nrow=d);
   
   # random data projection

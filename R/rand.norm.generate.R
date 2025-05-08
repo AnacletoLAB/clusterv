@@ -5,7 +5,7 @@ function(n=5, mean=0, sd=1){
   if (len.mean!=len.sd)
     stop("rand.norm.generate: Length of mean and sd vector must match", call.=FALSE);
   len.vect <- n*len.mean;
-  m <- rnorm(len.vect, mean, sd);
+  m <- stats::rnorm(len.vect, mean, sd);
   m <- matrix(m, nrow=len.mean);
   m
 }

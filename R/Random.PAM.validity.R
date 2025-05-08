@@ -3,13 +3,13 @@ function(M, dim, pmethod="PMO", c=3, n=50,
                                          scale=TRUE, seed=-1, AC=TRUE, distance="euclidean") {
   dim.Sim.M <- ncol(M);
 	if (seed == -1)
-	   seed <- round(runif(1,1,10000));
+	   seed <- round(stats::runif(1,1,10000));
 	# Computing the clusters in the original space	
 	if (distance == "euclidean")
-		d <- dist (t(M))
+		d <- stats::dist (t(M))
 	else 
-		d <- as.dist(1 - cor(M));
-	cl.v <- pam (d,c,cluster.only=TRUE);	
+		d <- stats::as.dist(1 - stats::cor(M));
+	cl.v <- cluster::pam (d,c,cluster.only=TRUE);	
 	cl.orig <- Transform.vector.to.list(cl.v);
 	
 	

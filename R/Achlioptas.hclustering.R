@@ -6,14 +6,14 @@ function(M, dim, c=3, hmethod="average", n=50, scale=TRUE, seed=100, distance="e
   for (i in 1:n) {
 	  P.M<- Achlioptas.random.projection(d=dim, M, scaling=scale);
 		if (distance == "euclidean")
-		  d <- dist (t(P.M))
+		  d <- stats::dist (t(P.M))
 		else if (distance == "pearson")
-			d <- as.dist(1 - cor(P.M))
+			d <- stats::as.dist(1 - stats::cor(P.M))
 	  else
 	    stop("distance measure not implemented");
-	  tr[i] <- list(hclust(d, method = hmethod));
+	  tr[i] <- list(stats::hclust(d, method = hmethod));
 		plot(tr[[i]], main="");
-	  cl[i] <- list(rect.hclust(tr[[i]], k = c));
+	  cl[i] <- list(stats::rect.hclust(tr[[i]], k = c));
 	}
   l <- list(cluster=cl, tree=tr);
   l

@@ -4,7 +4,7 @@ function(d=2, m, scaling=TRUE){
   if (d >= d.original)
     stop("norm.random.projection: subspace dimension must be lower than space dimension", call.=FALSE);
   # Projection matrix
-  P <- floor(runif(d*d.original,1,3)); # generate a vector 1-2 valued
+  P <- floor(stats::runif(d*d.original,1,3)); # generate a vector 1-2 valued
   P[P==2] <- -1;
   P <- matrix(P, nrow=d);
   
