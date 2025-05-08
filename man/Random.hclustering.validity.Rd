@@ -29,7 +29,7 @@ Random.hclustering.validity(M, dim, pmethod = "RS", c = 3, hmethod = "average",
                  "Achlioptas" (Achlioptas random projection) }
   \item{c}{ number of clusters }
   \item{hmethod}{ the agglomeration method to be used. This should be one of 
-         "ward", "single", "complete", "average", "mcquitty", "median" or "centroid", 
+         "ward.D", "single", "complete", "average", "mcquitty", "median" or "centroid", 
 				 according to the \code{hclust}
          method of the package \code{\link{stats}}. }
   \item{n}{ number of  random projections }
