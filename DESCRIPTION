@@ -1,7 +1,7 @@
 Package: clusterv
 Type: Package
 Version: 1.1
-Title: Assessment of cluster stability by randomized maps
+Title: Assessment of Cluster Stability by Randomized Maps
 Authors@R: c(
     person("Giorgio", "Valentini", email = "valentini@di.unimi.it", role = "aut"),
     person("Jessica", "Gliozzo", email = "jessica.gliozzo@unimi.it", role = "cre"))
