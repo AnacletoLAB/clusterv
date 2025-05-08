@@ -37,7 +37,7 @@ generate.sample5(n = 10, dim = 10, ratio.noisy = 0.8, m = 2)
   a matrix with dim rows (variables) and n*4 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 \dontrun{

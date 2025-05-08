@@ -27,7 +27,7 @@ rand.norm.generate.full(n = 5, mean = c(0, 0),
 }
 
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{generate.sample0}}, \code{\link{generate.sample1}}, \code{\link{generate.sample2}}
 

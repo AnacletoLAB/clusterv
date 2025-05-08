@@ -44,7 +44,7 @@ Random.PAM.validity(M, dim, pmethod = "PMO", c = 3, n = 50, scale = TRUE,
 	\item{AC }{matrix with the Assignment Confidence index for each example. Each row corresponds to an example, 
              each column to a cluster (optional)}
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Achlioptas.random.projection}}, \code{\link{Plus.Minus.One.random.projection}}, 
 

@@ -51,7 +51,7 @@ Average.Contraction(m, m.rid)
 \references{ A. Bertoni and   G. Valentini,
    Random projections for assessing gene expression cluster stability, Special Session biostatistics and bioinformatics
 	 IJCNN 2005, The IEEE-INNS International Joint Conference on Neural Networks, Montreal, 2005. }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 # PMO projection from a 1000 dimensional space to a 50-dimensional subspace

@@ -20,7 +20,7 @@ random.component.selection(d = 2, d.original = 10)
   vector of the selected features: it contain the indices of the components randomly selected
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{random.subspace}}}

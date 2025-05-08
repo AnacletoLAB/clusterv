@@ -28,7 +28,7 @@ generate.sample0(n = 5, m = 10, sigma = 1, dim = 2)
   a matrix with \emph{dim} rows (variables) and \emph{n}*3 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
  
 \examples{

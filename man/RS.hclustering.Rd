@@ -39,7 +39,7 @@ RS.hclustering.tree(M, dim, hmethod = "average", n = 50, scale = TRUE,
 	\code{RS.hclustering.tree} returns only the list of the trees.
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{random.subspace}}}

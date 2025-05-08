@@ -18,7 +18,7 @@ generate.uniform.random(n = 100, range = c(0, 1))
  a data matrix with examples in columns
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it} }
+\author{ Giorgio Valentini \email{valentini@di.unimi.it} }
 
 \examples{
 generate.uniform.random()

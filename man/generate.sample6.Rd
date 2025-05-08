@@ -25,7 +25,7 @@ generate.sample6(n = 20, m = 10, dim = 2, d = 3, s = 0.2)
 \value{
   a matrix with dim rows (variables) and n*6 columns (examples)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it} }
+\author{ Giorgio Valentini \email{valentini@di.unimi.it} }
 
 \examples{
 generate.sample6()

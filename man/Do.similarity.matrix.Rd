@@ -43,7 +43,7 @@ strictly define a partition.
   clusterings. Each element of the matrix is normalized so that its value is beween 0 and 1.
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 # Computing the similarity matrix associated to 20 hierarchical clusterings 

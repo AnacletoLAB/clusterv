@@ -31,7 +31,7 @@ high values denote stable clusters.
   vector of the validity indices. Each element corresponds to validity index of each cluster.
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Cluster.validity}},  \code{\link{Cluster.validity.from.similarity}},
            \code{\link{Do.similarity.matrix.partition}}, \code{\link{Do.similarity.matrix}}}

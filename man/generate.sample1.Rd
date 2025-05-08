@@ -28,7 +28,7 @@ generate.sample1(n = 2, m = 6, sigma = 1, dim = 10000)
   a matrix with dim rows (variables) and n*3 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 

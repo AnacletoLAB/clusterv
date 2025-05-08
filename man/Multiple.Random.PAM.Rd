@@ -34,7 +34,7 @@ Multiple.Random.PAM(M, dim, pmethod = "PMO", c = 3, n = 50, scale = TRUE,
 	and each vector represents a single cluster. The elements of the vectors are integers that corresponds to the number
 	of the columns (examples) of the matrix M of the data. 
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 # Multiple (20) PAM clusterings using Normal projections. 

@@ -30,7 +30,7 @@ generate.sample4(n = 2, sigma = 1)
   a real data matrix with 1000 rows (variables) and n*5 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 generate.sample4()

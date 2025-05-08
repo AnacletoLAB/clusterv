@@ -21,7 +21,7 @@ generate.sample.h3(n = 20, DeltaA = 1, DeltaB = 1, seed = 0)
 \value{
  a matrix with dim rows (variables) and n*6 columns (examples)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it} }
+\author{ Giorgio Valentini \email{valentini@di.unimi.it} }
 
 \examples{
 generate.sample.h3()

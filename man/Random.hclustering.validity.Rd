@@ -54,7 +54,7 @@ Random.hclustering.validity(M, dim, pmethod = "RS", c = 3, hmethod = "average",
              each column to a cluster (optional)}
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Achlioptas.random.projection}}, \code{\link{Plus.Minus.One.random.projection}}, 
 

@@ -28,7 +28,7 @@ generate.sample2(n = 2)
   a real data matrix with 10000 rows (variables) and n*2 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 

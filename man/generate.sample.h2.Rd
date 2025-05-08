@@ -24,7 +24,7 @@ with.I.II.level.examples = FALSE)
 \value{
   a matrix with dim rows (variables) and n*6 columns (examples)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it} }
+\author{ Giorgio Valentini \email{valentini@di.unimi.it} }
 
 \examples{
 generate.sample.h2()

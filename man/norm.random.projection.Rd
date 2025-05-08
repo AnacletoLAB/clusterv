@@ -28,7 +28,7 @@ norm.random.projection(d = 2, m, scaling = TRUE)
 \references{ E.Bingham, H.Mannila, Random projection in dimensionality reduction:
   Applications to image and text data, in: Proc. of KDD 01, ACM, San Francisco,
   CA, USA, 2001. }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Plus.Minus.One.random.projection}}, \code{\link{random.subspace}},
          \code{\link{Achlioptas.random.projection}} }

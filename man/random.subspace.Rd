@@ -33,7 +33,7 @@ the "compressed" data set \eqn{D_R = R D} can be quickly computed in  time \eqn{
   T.Ho, The random subspace method for constructing decision forests, IEEE
   Transactions on Pattern Analysis and Machine Intelligence 20 (8) (1998)
   832-844. }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 

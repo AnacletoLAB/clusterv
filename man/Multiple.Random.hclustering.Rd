@@ -37,7 +37,7 @@ Multiple.Random.hclustering(M, dim, pmethod = "RS", c = 3, hmethod = "average",
 	of the columns (examples) of the matrix M of the data. 
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{Achlioptas.random.projection}}, \code{\link{Plus.Minus.One.random.projection}},

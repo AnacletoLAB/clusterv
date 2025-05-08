@@ -24,7 +24,7 @@ are uniformly chosen in \eqn{\{-1,1\}}, such that \eqn{Prob(r_{ij} = 1) = Prob(r
   data matrix (dimension d X ncol(m)) of the examples projected in a d-dimensional random subspace
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{random.subspace}}, \code{\link{norm.random.projection}},

@@ -46,7 +46,7 @@ Random.kmeans.validity(M, dim, pmethod = "PMO", c = 3, it.max = 1000,
              each column to a cluster (optional)}
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Achlioptas.random.projection}}, \code{\link{Plus.Minus.One.random.projection}},  
 

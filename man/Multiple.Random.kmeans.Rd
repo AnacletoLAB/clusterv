@@ -33,7 +33,7 @@ Multiple.Random.kmeans(M, dim, pmethod = "PMO", c = 3, n = 50, it.max = 1000,
 	of the columns (examples) of the matrix M of the data. 
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 # Multiple (20) k-means clusterings using Normal projections. 

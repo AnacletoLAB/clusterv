@@ -36,7 +36,7 @@ Multiple.Random.fuzzy.kmeans(M, dim, pmethod = "PMO", c = 3, n = 50,
 	of the columns (examples) of the matrix M of the data. 
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 # Multiple (20) fuzzy-k-means clusterings using Normal projections. 

@@ -22,7 +22,7 @@ generate.sample.h1(n = 20, l = 5, Delta.h = 1, sd = 0.1, with.I.level.examples =
 \value{
  a matrix with dim rows (variables) and n*6 columns (examples)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it} }
+\author{ Giorgio Valentini \email{valentini@di.unimi.it} }
 
 \examples{
 generate.sample.h1()

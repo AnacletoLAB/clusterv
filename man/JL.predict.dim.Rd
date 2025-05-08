@@ -50,7 +50,7 @@ JL.predict.distortion(n, dim = 10)
 \references{ W.Johnson, J.Lindenstrauss, Extensions of Lipshitz mapping into Hilbert
   space, in: Conference in modern analysis and probability, Vol. 26 of
   Contemporary Mathematics, Amer. Math. Soc., 1984, pp. 189--206. }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{Plus.Minus.One.random.projection}}, \code{\link{norm.random.projection}},

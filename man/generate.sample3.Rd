@@ -28,7 +28,7 @@ generate.sample3(n = 2, m = 2)
   a matrix with 1000 rows (variables) and n*3 columns (examples)
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
 \dontrun{

@@ -31,7 +31,7 @@ which i appears with the other  elements of the cluster A.
   each column to a cluster.
 }
 
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \seealso{ \code{\link{Validity.indices}}, \code{\link{Cluster.validity}}, \code{\link{Cluster.validity.from.similarity}},
 

@@ -43,7 +43,7 @@ seed = 100, distance = "euclidean")
 \references{D.Achlioptas, Database-friendly random projections., in: Proc. ACM Symp. on
   the Principles of Database Systems, Contemporary Mathematics, 2001, pp. 274-281.	
 	}
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 
 \seealso{ \code{\link{Achlioptas.random.projection}}, \code{\link{Plus.Minus.One.random.projection}}, 
