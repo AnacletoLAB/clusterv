@@ -1,6 +1,6 @@
 Package: clusterv
 Type: Package
-Version: 1.1
+Version: 1.1.1
 Title: Assessment of Cluster Stability by Randomized Maps
 Authors@R: c(
     person("Giorgio", "Valentini", email = "valentini@di.unimi.it", role = "aut"),
@@ -9,7 +9,8 @@ Maintainer: Jessica Gliozzo <jessica.gliozzo@unimi.it>
 Description: The reliability of clusters is estimated using random projections. 
     A set of stability measures is provided to assess the reliability of the clusters 
     discovered by a generic clustering algorithm. 
-    The stability measures are taylored to high dimensional data (e.g. DNA microarray data).
+    The stability measures are taylored to high dimensional data (e.g. DNA microarray data) 
+    (Valentini, G (2005), <doi:10.1093/bioinformatics/bti817>.
 License: GPL (>= 2)
 URL: https://valentini.di.unimi.it/SW/clusterv/
 BugReports: https://github.com/AnacletoLAB/clusterv/issues
