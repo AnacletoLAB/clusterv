@@ -40,7 +40,7 @@ generate.sample5(n = 10, dim = 10, ratio.noisy = 0.8, m = 2)
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
-\dontrun{
+\donttest{
 generate.sample5()
 # Generation of a data set with 80 1000-dimensional examples, with the 200 no-noisy 
 # features of the examples of the first class  centered in 0, the 200 no-noisy features 

@@ -33,7 +33,7 @@ generate.sample2(n = 2)
 
 
 \examples{
-\dontrun{generate.sample2()}
-\dontrun{generate.sample2(n = 20)}
+\donttest{generate.sample2()}
+\donttest{generate.sample2(n = 20)}
 }
 \keyword{datagen}

@@ -51,7 +51,7 @@ seed = 100, distance = "euclidean")
           \code{\link{norm.random.projection}},\code{\link{random.subspace}}}
 
 \examples{
-\dontrun{
+\donttest{
 # 20 hierarchical clusterings on multiple Achlioptas projected data with 
 # subspace dimension equal to 100
 M <- generate.sample0(n=10, m=2, sigma=1, dim=800)

@@ -31,7 +31,7 @@ generate.sample3(n = 2, m = 2)
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 
 \examples{
-\dontrun{
+\donttest{
 generate.sample3()
 # Generation of a data set with 60 1000-dimensional examples, 
 # with the examples of the first class  centered in the 1000-dimensional 

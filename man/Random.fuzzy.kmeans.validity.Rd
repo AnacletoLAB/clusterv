@@ -53,7 +53,7 @@ Random.fuzzy.kmeans.validity(M, dim, pmethod = "PMO", c = 3, n = 50, scale = TRU
 						 
 						 \code{\link{Cluster.validity}}, \code{\link{Validity.indices}}, \code{\link{AC.index}}}
 \examples{
-\dontrun{
+\donttest{
 # Assessment of the reliability of clusters discovered 
 # by fuzzy k-means using RS projections. 
 M <- generate.sample0(n=10, m=2, sigma=1, dim=800)
